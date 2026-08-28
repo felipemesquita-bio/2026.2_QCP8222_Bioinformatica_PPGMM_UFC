@@ -1,0 +1,148 @@
+---
+title: "Materiais da disciplina"
+page-layout: full
+---
+
+Os materiais serão disponibilizados e atualizados ao longo da disciplina.
+
+## Atividades
+
+::: {.resource-grid}
+
+::: {.resource-box}
+### Atividade 1
+
+[Baixar atividade](<atividades/Atividade 1/Atividade 1.docx>){download=""}
+:::
+
+::: {.resource-box}
+### Atividade 2
+
+[Baixar atividade](<atividades/Atividade 2/Atividade 2.docx>){download=""}
+
+[FASTQ](<atividades/Atividade 2/demo_reads.fastq>){download=""} ·
+[VCF](<atividades/Atividade 2/demo_annotated.vcf>){download=""} ·
+[GFF](<atividades/Atividade 2/demo_prokka_annotation.gff>){download=""}
+:::
+
+::: {.resource-box}
+### Atividade 3
+
+[Baixar atividade](<atividades/Atividade 3/Atividade 3.docx>){download=""}
+
+[Sample 1](<atividades/Atividade 3/sample1.fastq>){download=""} ·
+[Sample 2](<atividades/Atividade 3/sample2.fastq>){download=""} ·
+[Sample 3](<atividades/Atividade 3/sample3.fastq>){download=""}
+:::
+
+::: {.resource-box}
+### Atividade 4
+
+[Baixar atividade](<atividades/Atividade 4/Atividade 4.docx>){download=""}
+:::
+
+:::
+
+## Scripts em R
+
+::: {.resource-grid}
+
+::: {.resource-box}
+### Fundamentos de R
+
+[Aula 1 — conhecendo o R](<scripts/Scripts_R/R_basico/Aula 1 - conhecendo R e Funcoes.R>){download=""}
+
+[Aula 2 — operações](<scripts/Scripts_R/R_basico/Aula 2 - Operações.R>){download=""}
+
+[Aula 3 — organização de dados](<scripts/Scripts_R/R_basico/Aula 3 - Organização e armazenamento de dados.R>){download=""}
+
+[Aula 4 — data frames](<scripts/Scripts_R/R_basico/Aula 4 - Dataframe.R>){download=""}
+
+[dataframe de exemplo](<scripts/Scripts_R/R_basico/DataFrame.xlsx>){download=""}
+:::
+
+::: {.resource-box}
+### Transcriptômica
+
+[Script de análise de DEGs](<scripts/Scripts_R/Transcriptoma_RNA-seq/Analise_DEGs.R>){download=""}
+
+[Dados de RNA-seq](<scripts/Scripts_R/Transcriptoma_RNA-seq/GSE297704_featureCounts.tsv.gz>){download=""}
+
+[Material sobre limma](<scripts/Scripts_R/Transcriptoma_RNA-seq/limma.pdf>){download=""}
+:::
+
+::: {.resource-box}
+### Gene Ontology
+
+[Script de análise GO](<scripts/Scripts_R/Gene ontology/GO_analysis.R>){download=""}
+
+[Conjunto de DEGs](<scripts/Scripts_R/Gene ontology/degs.csv>){download=""}
+
+[Material sobre clusterProfiler](<scripts/Scripts_R/Gene ontology/Paper ClusterProfiler.pdf>){download=""}
+:::
+
+:::
+
+## Lógica de programação
+
+::: {.resource-box}
+### Exemplos em Visualg
+
+[Primeiro programa](<scripts/visualg/Primeiro Programa.visualg>){download=""} ·
+[Soma](<scripts/visualg/soma.visualg>){download=""} ·
+[IMC](<scripts/visualg/imc.visualg>){download=""} ·
+[Idade](<scripts/visualg/programa idade.visualg>){download=""} ·
+[Contador](<scripts/visualg/contador numerico.visualg>){download=""} ·
+[Tabuada](<scripts/visualg/tabuada_simples.visualg>){download=""} ·
+[Notas dos alunos](<scripts/visualg/notasalunos.visualg>){download=""}
+:::
+
+## Pipeline nf-core
+
+::: {.resource-box}
+### Dados e configurações
+
+[FASTQ — amostra 1](<dados/pipelines_nf-core/sample_1.fastq.gz>){download=""}
+
+[FASTQ — amostra 2](<dados/pipelines_nf-core/sample_2.fastq.gz>){download=""}
+
+[Comando de demonstração](<dados/pipelines_nf-core/demo/comando_demo.txt>){download=""}
+
+[Configuração de demonstração](<dados/pipelines_nf-core/demo/custom.config>){download=""}
+
+[Comando bacass](<dados/pipelines_nf-core/bacass/comando.txt>){download=""}
+
+[Configuração bacass](<dados/pipelines_nf-core/bacass/custom.config>){download=""}
+:::
+
+## Leituras complementares
+
+::: {.resource-grid}
+
+::: {.resource-box}
+### Artigos
+
+[Ferretti et al. — Assembly of the Infant Gut Microbiome and Resistome Are Linked to Bacterial Strains in Mother’s Milk](<artigos/Ferreti et al Nature Communications_2025.pdf>){download=""}
+
+[Mejía-Limones et al. — Whole-Genome Sequencing of *Klebsiella pneumoniae* MDR Circulating in a Pediatric Hospital Setting: A Comprehensive Genome Analysis of Isolates from Guayaquil, Ecuador](<artigos/Mejía‑Limones et al. BMC Genomics .pdf>){download=""}
+
+[Zhu et al. — Global Diversity and Distribution of Antibiotic Resistance Genes in Human Wastewater Treatment Systems](<artigos/Zhu et al Nature Communications 2025.pdf>){download=""}
+
+[Fong et al. — Diversity and Host Specificity Revealed by Biological Characterization and Whole Genome Sequencing of Bacteriophages Infecting *Salmonella enterica*](artigos/Fong-2019-bacteriophages-Salmonella.pdf){download=""}
+
+[Hinthong et al. — Genomic Insights into *Klebsiella pneumoniae*: Virulence, Resistance, and Transmission in South and Southeast Asia](artigos/Hinthong-2025-Klebsiella-genomic-insights.pdf){download=""}
+
+[Ryan et al. — Small Pangenome of *Candida parapsilosis* Reflects Overall Low Intraspecific Diversity](artigos/Ryan-Candida-parapsilosis-pangenome.pdf){download=""}
+
+[Pawlowski et al. — A Diverse Intrinsic Antibiotic Resistome from a Cave Bacterium](artigos/Pawlowski-2016-antibiotic-resistome.pdf){download=""}
+
+[Xie et al. — Genomic Epidemiology and Antifungal Resistance of Emerging *Trichophyton indotineae* in China](artigos/Xie-2025-Trichophyton-indotineae.pdf){download=""}
+
+[Azra et al. — Comparative Genomic Insights into Multidrug Resistance in Classical and Hypervirulent *K. pneumoniae* Clinical Isolates](artigos/Azra-Klebsiella-multidrug-resistance.pdf){download=""}
+
+[Anik et al. — Whole-Genome Sequencing and Genomic Characterization of Multidrug-Resistant *Staphylococcus haemolyticus* DUEML1](artigos/Anik-2025-Staphylococcus-haemolyticus.pdf){download=""}
+
+[Kador et al. — Abundance and Transmission of Antibiotic Resistance and Virulence Genes through Mobile Genetic Elements in Integrated Chicken and Fish Farming](artigos/Kador-antibiotic-resistance-integrated-farming.pdf){download=""}
+:::
+
+:::

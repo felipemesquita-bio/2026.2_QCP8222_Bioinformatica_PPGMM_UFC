@@ -1,0 +1,561 @@
+:root {
+  --font-sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --navy: #123b57;
+  --navy-dark: #092a40;
+  --teal: #167d83;
+  --teal-dark: #0f6469;
+  --gold: #c59a4a;
+
+  --ink: #17212b;
+  --muted: #64727f;
+  --paper: #ffffff;
+  --background: #f6f8fb;
+  --soft: #edf4f5;
+  --line: #dce5ea;
+
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 28px;
+
+  --shadow-sm: 0 5px 18px rgba(18, 59, 87, 0.06);
+  --shadow: 0 14px 38px rgba(18, 59, 87, 0.10);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--background);
+  font-family: var(--font-sans);
+  font-size: 1.02rem;
+  line-height: 1.72;
+  text-rendering: optimizeLegibility;
+}
+
+/* Navegação */
+
+.navbar {
+  --bs-navbar-color: var(--ink);
+  --bs-navbar-hover-color: var(--teal);
+  --bs-navbar-active-color: var(--navy);
+  --bs-navbar-brand-color: var(--navy);
+  --bs-navbar-brand-hover-color: var(--teal);
+
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-bottom: 1px solid rgba(220, 229, 234, 0.9);
+  box-shadow: 0 4px 20px rgba(18, 59, 87, 0.04);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.navbar-title,
+.navbar-brand {
+  color: var(--navy) !important;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+}
+
+.navbar .nav-link {
+  color: var(--ink);
+  font-size: 0.94rem;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: var(--teal);
+}
+
+/* Conteúdo */
+
+main.content {
+  width: min(1120px, calc(100% - 2rem));
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.quarto-title h1.title {
+  color: var(--navy-dark);
+  font-family: var(--font-sans);
+  letter-spacing: -0.025em;
+}
+
+h2 {
+  margin-top: 4.5rem;
+  margin-bottom: 1.3rem;
+  font-size: clamp(1.65rem, 3vw, 2.15rem);
+  font-weight: 750;
+}
+
+h2::after {
+  display: block;
+  width: 42px;
+  height: 4px;
+  margin-top: 0.55rem;
+  border-radius: 999px;
+  background: var(--teal);
+  content: "";
+}
+
+h3 {
+  font-weight: 720;
+}
+
+main.content a {
+  color: var(--teal-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+main.content a:hover {
+  color: var(--navy);
+}
+
+/* Título das páginas */
+
+.quarto-title-block {
+  margin-top: clamp(2.5rem, 6vw, 5rem);
+  margin-bottom: 2rem;
+}
+
+.quarto-title h1.title {
+  max-width: 850px;
+  margin-bottom: 0.6rem;
+  font-size: clamp(2.4rem, 5vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.02;
+}
+
+.quarto-title .subtitle {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+/* Apresentação inicial */
+
+.course-intro {
+  position: relative;
+  overflow: hidden;
+  margin: 1rem 0 4rem;
+  padding: clamp(2rem, 5vw, 4.2rem);
+  border: 1px solid rgba(22, 125, 131, 0.13);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(22, 125, 131, 0.17),
+      transparent 34%
+    ),
+    linear-gradient(135deg, #ffffff 0%, #edf5f5 100%);
+  box-shadow: var(--shadow);
+}
+
+.course-intro::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 100%;
+  background: linear-gradient(var(--teal), var(--gold));
+  content: "";
+}
+
+.course-intro > p {
+  max-width: 780px;
+  margin: 0.8rem 0 1.3rem;
+  color: var(--muted);
+  font-size: clamp(1.05rem, 2vw, 1.23rem);
+}
+
+.course-kicker {
+  color: var(--teal-dark);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.course-kicker p {
+  margin-bottom: 0;
+}
+
+.course-meta {
+  margin: 1.4rem 0 1.7rem;
+  color: var(--navy);
+  font-size: 0.88rem;
+  font-weight: 650;
+}
+
+.course-meta p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 0;
+}
+
+.course-meta span {
+  padding: 0.42rem 0.72rem;
+  border: 1px solid rgba(22, 125, 131, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.76);
+}
+
+/* Botões */
+
+.course-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.course-actions p {
+  margin: 0;
+}
+
+main.content a.btn {
+  padding: 0.68rem 1.05rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
+}
+
+main.content a.btn-primary,
+main.content a.btn-primary:visited {
+  color: #ffffff;
+  background: var(--teal);
+  border-color: var(--teal);
+}
+
+main.content a.btn-primary:hover,
+main.content a.btn-primary:focus {
+  color: #ffffff;
+  background: var(--teal-dark);
+  border-color: var(--teal-dark);
+  box-shadow: 0 8px 22px rgba(22, 125, 131, 0.22);
+  transform: translateY(-2px);
+}
+
+main.content a.btn-outline-primary {
+  color: var(--navy);
+  background: rgba(255, 255, 255, 0.7);
+  border-color: var(--navy);
+}
+
+main.content a.btn-outline-primary:hover {
+  color: #ffffff;
+  background: var(--navy);
+  transform: translateY(-2px);
+}
+
+/* Professor */
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 820px);
+  gap: 1.2rem;
+}
+
+.faculty-card {
+  display: grid;
+  grid-template-columns: 165px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 2rem;
+  padding: 2rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+}
+
+.faculty-card > p:first-child {
+  grid-column: 1;
+  grid-row: 1 / 5;
+  margin: 0;
+}
+
+.faculty-card h3,
+.faculty-card > p:not(:first-child),
+.faculty-card .faculty-links {
+  grid-column: 2;
+}
+
+.faculty-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.35rem;
+}
+
+.faculty-card > p:not(:first-child) {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.faculty-photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 8px 26px rgba(18, 59, 87, 0.18);
+  object-fit: cover;
+  object-position: center;
+}
+
+.faculty-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.faculty-link {
+  display: inline-flex;
+  padding: 0.4rem 0.68rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--background);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Cronograma */
+
+.schedule {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.schedule-row {
+  display: grid;
+  grid-template-columns: 105px minmax(0, 1fr);
+  gap: 1.3rem;
+  padding: 1.35rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 170ms ease,
+    box-shadow 170ms ease,
+    border-color 170ms ease;
+}
+
+.schedule-row:hover {
+  border-color: rgba(22, 125, 131, 0.35);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.schedule-date {
+  align-self: start;
+  padding: 0.65rem 0.5rem;
+  border-radius: var(--radius-sm);
+  color: var(--muted);
+  background: var(--soft);
+  font-size: 0.76rem;
+  line-height: 1.35;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.schedule-date strong {
+  display: block;
+  color: var(--teal-dark);
+  font-size: 0.95rem;
+}
+
+.schedule-content h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.08rem;
+}
+
+.schedule-content p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+/* Materiais e cartões */
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+
+.resource-box {
+  display: flex;
+  flex-direction: column;
+  padding: 1.4rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 170ms ease,
+    box-shadow 170ms ease,
+    border-color 170ms ease;
+}
+
+.resource-box:hover {
+  border-color: rgba(22, 125, 131, 0.32);
+  box-shadow: var(--shadow);
+  transform: translateY(-3px);
+}
+
+.resource-box h3 {
+  margin: 0 0 0.8rem;
+  font-size: 1.14rem;
+}
+
+.resource-box p {
+  margin: 0.45rem 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.resource-box a:not(.btn) {
+  font-weight: 650;
+}
+
+/* Status */
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.36rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--paper);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.status-live {
+  color: var(--teal-dark);
+  background: #e4f4f2;
+  border-color: #b9deda;
+}
+
+.status-next {
+  color: #735818;
+  background: #fff6df;
+  border-color: #ead49b;
+}
+
+/* Rodapé */
+
+.nav-footer {
+  margin-top: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  background: #eef2f5;
+  font-size: 0.85rem;
+}
+
+/* Responsividade */
+
+@media (max-width: 760px) {
+  body {
+    font-size: 0.98rem;
+  }
+
+  main.content {
+    width: min(100% - 1.25rem, 1120px);
+  }
+
+  .course-intro {
+    padding: 1.7rem 1.35rem;
+    border-radius: 20px;
+  }
+
+  .faculty-card {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .faculty-card > p:first-child,
+  .faculty-card h3,
+  .faculty-card > p:not(:first-child),
+  .faculty-card .faculty-links {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .faculty-card > p:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .faculty-links {
+    justify-content: center;
+  }
+
+  .faculty-photo {
+    width: 130px;
+    height: 130px;
+  }
+
+  .schedule-row {
+    grid-template-columns: 78px minmax(0, 1fr);
+    gap: 0.85rem;
+    padding: 1rem;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .schedule-row {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-date {
+    width: fit-content;
+    min-width: 82px;
+  }
+
+  .course-meta p {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

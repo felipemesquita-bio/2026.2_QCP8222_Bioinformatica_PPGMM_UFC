@@ -1,0 +1,9 @@
+algoritmo "primeiroprograma"
+var
+msg: caractere
+
+inicio
+	msg <- "Ola, turma!"
+	escreval (msg)
+
+fimalgoritmo
