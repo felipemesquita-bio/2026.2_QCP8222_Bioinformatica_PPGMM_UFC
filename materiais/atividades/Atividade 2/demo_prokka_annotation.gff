@@ -1,0 +1,16 @@
+##gff-version 3
+##feature-ontology so.obo
+##attribute-ontology gff3_attributes.obo
+##source-version Prokka 1.14.6
+##sequence-region contig00001 1 12000
+contig00001	Prokka	region	1	12000	.	+	.	ID=contig00001;Name=contig00001
+contig00001	Prokka	gene	120	980	.	+	.	ID=gene00001;Name=dnaA
+contig00001	Prokka	CDS	120	980	.	+	0	ID=cds00001;Parent=gene00001;inference=ab initio prediction:Prodigal:2.6;product=Chromosomal replication initiator protein DnaA;locus_tag=DEMO_00001
+contig00001	Prokka	gene	1100	1850	.	-	.	ID=gene00002;Name=gyrB
+contig00001	Prokka	CDS	1100	1850	.	-	0	ID=cds00002;Parent=gene00002;inference=ab initio prediction:Prodigal:2.6;product=DNA gyrase subunit B;locus_tag=DEMO_00002
+contig00001	Prokka	tRNA	2200	2274	.	+	.	ID=trna00001;product=tRNA-Lys;inference=profile:tRNAscan:2.0;locus_tag=DEMO_00003
+contig00001	Prokka	gene	3000	4125	.	+	.	ID=gene00003;Name=recA
+contig00001	Prokka	CDS	3000	4125	.	+	0	ID=cds00003;Parent=gene00003;inference=ab initio prediction:Prodigal:2.6;product=Recombinase A;locus_tag=DEMO_00004
+##FASTA
+>contig00001
+ATGCGTACGTTAGCTAGCTAGGCTAACGTAGCTAGCTAGGCTAACGTAGCTAGCTAACGTTAGCTAACGTATGCGTACGTTAGCTAGCTAGGCTAACGTAGCTAGCTAGGCTAACGTAGCTAGCTAACGTTAGCTAACGT

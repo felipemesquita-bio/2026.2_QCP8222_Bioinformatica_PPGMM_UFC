@@ -1,0 +1,35 @@
+---
+title: "Espaço autodidata"
+page-layout: full
+format:
+  html:
+    toc: false
+---
+
+Plataformas gratuitas para estudantes que desejam desenvolver habilidades básicas de programação em Bash e R no próprio ritmo.
+
+::: {.resource-grid}
+
+::: {.resource-box}
+### Bash para iniciantes
+
+O **BareBonesBash** apresenta os fundamentos da linha de comando e da linguagem Bash de maneira acessível para quem está começando.
+
+[Começar a estudar Bash →](https://barebonesbash.github.io/#/){.btn .btn-primary}
+:::
+
+::: {.resource-box}
+### R para iniciantes
+
+O **swirl** ensina programação em R e ciência de dados de forma interativa, diretamente no console do R.
+
+[Começar a estudar R →](https://swirlstats.com/){.btn .btn-primary}
+:::
+
+:::
+
+## Importante!
+
+1. Avance gradualmente pelas atividades da plataforma.
+2. Pratique os comandos no próprio computador.
+3. Registre dúvidas para discutir durante a disciplina.

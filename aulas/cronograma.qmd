@@ -1,0 +1,195 @@
+::: {.schedule}
+
+::: {.schedule-row}
+::: {.schedule-date}
+**08 SET**  
+Aula 01
+:::
+::: {.schedule-content}
+### Introdução à bioinformática
+
+Definição, história, evolução da área e principais aplicações.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**09 SET**  
+Aula 02
+:::
+::: {.schedule-content}
+### Sequenciamento de DNA e RNA
+
+Método Sanger, NGS, evolução das plataformas e cuidados da bancada à análise.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**10 SET**  
+Aula 03
+:::
+::: {.schedule-content}
+### Estrutura de dados
+
+Representação e armazenamento de sequências nos formatos FASTA, FASTQ, VCF, GFF e BAM.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**11 SET**  
+Aula 04
+:::
+::: {.schedule-content}
+### Alinhamento de sequências
+
+Conceitos básicos de alinhamento global e local.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**14 SET**  
+Aula 05
+:::
+::: {.schedule-content}
+### Linguagens de programação aplicadas à bioinformática I
+
+Introdução às linguagens shell, R e outras ferramentas computacionais.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**15 SET**  
+Aula 06
+:::
+::: {.schedule-content}
+### Linguagens de programação aplicadas à bioinformática II
+
+Lógica de programação e Portugol aplicado para iniciantes.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**16 SET**  
+Aula 07
+:::
+::: {.schedule-content}
+### Shell, Bash e frameworks
+
+Comandos básicos para manipulação de dados e introdução ao Nextflow.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**17 SET**  
+Aula 08
+:::
+::: {.schedule-content}
+### Prática de Shell e Bash
+
+Manipulação de arquivos e diretórios utilizando a linha de comando.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**18 SET**  
+Aula 09
+:::
+::: {.schedule-content}
+### Análise de sequenciamento de DNA
+
+Controle de qualidade, mapeamento de reads, chamada de variantes e anotação gênica.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**21 SET**  
+Aula 10
+:::
+::: {.schedule-content}
+### Análise de RNA-seq e microarranjos
+
+Pré-processamento, mapeamento, quantificação, anotação e pós-processamento.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**22 SET**  
+Aula 11
+:::
+::: {.schedule-content}
+### Análise metagenômica
+
+Controle de qualidade, montagem, anotação e classificação taxonômica.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**23 SET**  
+Aula 12
+:::
+::: {.schedule-content}
+### Análise terciária de dados ômicos
+
+Ferramentas para interpretação biológica de resultados.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**24 SET**  
+Aula 13
+:::
+::: {.schedule-content}
+### Introdução à linguagem R
+
+Comandos básicos e scripts em R aplicados às análises terciárias.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**25 SET**  
+Aula 14
+:::
+::: {.schedule-content}
+### Seminários — parte 1
+
+Apresentação de trabalhos científicos e produtos de inovação em bioinformática.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**28 SET**  
+Aula 15
+:::
+::: {.schedule-content}
+### Seminários — parte 2
+
+Apresentação de trabalhos científicos e produtos de inovação em bioinformática.
+:::
+:::
+
+::: {.schedule-row}
+::: {.schedule-date}
+**29 SET**  
+Aula 16
+:::
+::: {.schedule-content}
+### Seminários — parte 3
+
+Apresentação de trabalhos científicos e produtos de inovação em bioinformática.
+:::
+:::
+
+:::

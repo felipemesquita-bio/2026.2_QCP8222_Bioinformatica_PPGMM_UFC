@@ -1,0 +1,12 @@
+algoritmo "soma"
+var
+x, y, s: inteiro
+
+inicio
+	escreval("digite seu número: ")
+  leia(x)
+  escreval("Digite outro número: ")
+  leia(y)
+  s <- x + y
+  escreval(s)
+fimalgoritmo

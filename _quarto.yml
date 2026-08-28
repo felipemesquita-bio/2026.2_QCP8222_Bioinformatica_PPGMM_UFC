@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - materiais/**
+    - aulas/**
+
+website:
+  title: "QCP8222 · Bioinformática"
+  description: "Disciplina do Programa de Pós-Graduação em Microbiologia Médica da Universidade Federal do Ceará"
+  favicon: assets/logos/ufc-favicon.png
+
+  navbar:
+    pinned: true
+    background: "#ffffff"
+    foreground: "#17324d"
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Objetivos"
+        href: index.qmd#objetivos
+      - text: "Cronograma"
+        href: index.qmd#cronograma
+      - text: "Materiais"
+        href: materiais/index.qmd
+      - text: "Autodidata"
+        href: autodidata.qmd
+
+  page-footer:
+    left: "QCP8222 · PPG Microbiologia Médica · UFC"
+    right: "2026.2 · Fortaleza, Ceará"
+
+  search:
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme: default
+    css: assets/css/styles.css
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    anchor-sections: true
+    include-after-body: assets/js/site-footer.html
+
+lang: pt-BR

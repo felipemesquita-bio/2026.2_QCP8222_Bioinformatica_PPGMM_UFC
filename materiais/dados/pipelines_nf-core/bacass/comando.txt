@@ -1,0 +1,1 @@
+nextflow run nf-core/bacass -r 2.5.0 --input samplesheet.tsv --outdir results -profile docker --assembly_type 'short' --skip_kraken2 --skip_kmerfinder -c custom.config -resume

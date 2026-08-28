@@ -1,0 +1,10 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const external = document.querySelectorAll('a[href^="http"]');
+  external.forEach(a => {
+    if (!a.getAttribute('aria-label')) {
+      a.setAttribute('aria-label', (a.textContent.trim() || 'Link externo') + ' (abre em nova aba)');
+    }
+  });
+});
+</script>

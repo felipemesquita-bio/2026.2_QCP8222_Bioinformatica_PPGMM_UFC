@@ -1,0 +1,16 @@
+algoritmo "imc"
+var
+  m, a, imc: real
+inicio
+  escreval("Massa (kg): ")
+  leia(m)
+  escreval("Altura (m): ")
+  leia(a)
+  imc <- m / (a^2)
+  escreval(imc)
+  se (imc >= 18.5) e (imc <= 25) entao
+    escreval ("Você está no seu peso ideal!")
+  senao
+    escreval("Você não está no seu peso ideal")
+  fimse
+fimalgoritmo
