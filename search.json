@@ -88,7 +88,7 @@
     "href": "materiais/index.html#scripts-em-r",
     "title": "Materiais da disciplina",
     "section": "Scripts em R",
-    "text": "Scripts em R\n\n\nFundamentos de R\nAula 1 — conhecendo o R\nAula 2 — operações\nAula 3 — organização de dados\nAula 4 — data frames\ndataframe de exemplo\n\n\nTranscriptômica\nScript de análise de DEGs\nDados de RNA-seq\nMaterial sobre limma\n\n\nGene Ontology\nScript de análise GO\nConjunto de DEGs\nMaterial sobre clusterProfiler"
+    "text": "Scripts em R\n\n\nFundamentos de R\nAula 1 — conhecendo o R\nAula 2 — operações\nAula 3 — organização de dados\nAula 4 — data frames\ndataframe de exemplo\n\n\nTranscriptômica\nScript de análise de DEGs\nDados de RNA-seq\nMaterial sobre limma\n\n\nGene Ontology\nScript de análise GO\nConjunto de DEGs\nMaterial sobre clusterProfiler\n\n\nResistência antimicrobiana\nScript de análise de genes de resistência\nTabela-modelo do AMRFinderPlus"
   },
   {
     "objectID": "materiais/index.html#lógica-de-programação",

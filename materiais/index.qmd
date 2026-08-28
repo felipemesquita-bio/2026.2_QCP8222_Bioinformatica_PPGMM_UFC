@@ -81,6 +81,14 @@ Os materiais serão disponibilizados e atualizados ao longo da disciplina.
 [Material sobre clusterProfiler](<scripts/Scripts_R/Gene ontology/Paper ClusterProfiler.pdf>){download=""}
 :::
 
+::: {.resource-box}
+### Resistência antimicrobiana
+
+[Script de análise de genes de resistência](<scripts/Scripts_R/Analise_AMR/Analise_AMR.R>){download=""}
+
+[Tabela-modelo do AMRFinderPlus](<scripts/Scripts_R/Analise_AMR/amr_resultados_exemplo.tsv>){download=""}
+:::
+
 :::
 
 ## Lógica de programação
