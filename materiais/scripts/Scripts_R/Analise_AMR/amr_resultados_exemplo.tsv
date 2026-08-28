@@ -1,0 +1,37 @@
+Name	Element symbol	Element name	Type	Class	Subclass	Method	% Coverage of reference	% Identity to reference	Contig id	Start	Stop	Strand
+Isolado_01	blaCTX-M-15	CTX-M-15 family class A extended-spectrum beta-lactamase	AMR	BETA-LACTAM	CEPHALOSPORIN	ALLELE	100	100	contig_1	1045	1918	+
+Isolado_01	blaTEM-1	TEM-1 family class A beta-lactamase	AMR	BETA-LACTAM	BETA-LACTAM	ALLELE	100	99.8	contig_3	2201	3061	-
+Isolado_01	sul1	sulfonamide-resistant dihydropteroate synthase Sul1	AMR	SULFONAMIDE	SULFONAMIDE	ALLELE	100	100	contig_4	800	1639	+
+Isolado_01	dfrA17	trimethoprim-resistant dihydrofolate reductase DfrA17	AMR	TRIMETHOPRIM	TRIMETHOPRIM	ALLELE	98.5	99.4	contig_4	1750	2223	+
+Isolado_01	aac(6')-Ib-cr	fluoroquinolone and aminoglycoside resistance protein	AMR	AMINOGLYCOSIDE/QUINOLONE	AMINOGLYCOSIDE/QUINOLONE	ALLELE	100	100	contig_6	330	929	-
+Isolado_02	blaKPC-2	KPC-2 family class A carbapenemase	AMR	BETA-LACTAM	CARBAPENEM	ALLELE	100	100	contig_2	1500	2381	+
+Isolado_02	blaTEM-1	TEM-1 family class A beta-lactamase	AMR	BETA-LACTAM	BETA-LACTAM	ALLELE	100	100	contig_2	2700	3560	+
+Isolado_02	qnrS1	quinolone resistance pentapeptide repeat protein QnrS1	AMR	QUINOLONE	QUINOLONE	ALLELE	100	99.6	contig_5	480	1136	-
+Isolado_02	sul2	sulfonamide-resistant dihydropteroate synthase Sul2	AMR	SULFONAMIDE	SULFONAMIDE	ALLELE	96.4	98.9	contig_7	201	1016	+
+Isolado_02	tet(A)	tetracycline efflux transporter Tet(A)	AMR	TETRACYCLINE	TETRACYCLINE	ALLELE	100	99.7	contig_8	410	1608	-
+Isolado_03	blaNDM-1	NDM-1 family class B metallo-beta-lactamase	AMR	BETA-LACTAM	CARBAPENEM	ALLELE	100	100	contig_1	900	1712	+
+Isolado_03	blaCTX-M-15	CTX-M-15 family class A extended-spectrum beta-lactamase	AMR	BETA-LACTAM	CEPHALOSPORIN	ALLELE	100	99.9	contig_3	1410	2283	-
+Isolado_03	mph(A)	macrolide 2-phosphotransferase Mph(A)	AMR	MACROLIDE	MACROLIDE	ALLELE	99.1	99.5	contig_5	220	1125	+
+Isolado_03	catA1	chloramphenicol acetyltransferase CatA1	AMR	PHENICOL	CHLORAMPHENICOL	ALLELE	100	98.8	contig_6	2044	2691	-
+Isolado_03	rmtB	16S rRNA methyltransferase RmtB	AMR	AMINOGLYCOSIDE	AMINOGLYCOSIDE	ALLELE	95.0	99.2	contig_9	511	1345	+
+Isolado_04	mcr-1.1	phosphoethanolamine transferase MCR-1.1	AMR	COLISTIN	COLISTIN	ALLELE	100	100	contig_2	4001	5628	+
+Isolado_04	blaTEM-1	TEM-1 family class A beta-lactamase	AMR	BETA-LACTAM	BETA-LACTAM	ALLELE	100	99.5	contig_4	1200	2060	-
+Isolado_04	tet(B)	tetracycline efflux transporter Tet(B)	AMR	TETRACYCLINE	TETRACYCLINE	ALLELE	100	99.8	contig_7	155	1353	+
+Isolado_04	floR	florfenicol/chloramphenicol efflux transporter FloR	AMR	PHENICOL	PHENICOL	ALLELE	97.8	98.5	contig_9	700	1914	-
+Isolado_05	blaOXA-48	OXA-48 family class D carbapenemase	AMR	BETA-LACTAM	CARBAPENEM	ALLELE	100	100	contig_1	2100	2894	+
+Isolado_05	qnrB1	quinolone resistance pentapeptide repeat protein QnrB1	AMR	QUINOLONE	QUINOLONE	ALLELE	100	99.1	contig_3	600	1244	-
+Isolado_05	sul1	sulfonamide-resistant dihydropteroate synthase Sul1	AMR	SULFONAMIDE	SULFONAMIDE	ALLELE	100	100	contig_5	800	1639	+
+Isolado_05	dfrA12	trimethoprim-resistant dihydrofolate reductase DfrA12	AMR	TRIMETHOPRIM	TRIMETHOPRIM	ALLELE	94.6	98.7	contig_5	1720	2193	+
+Isolado_06	blaCTX-M-15	CTX-M-15 family class A extended-spectrum beta-lactamase	AMR	BETA-LACTAM	CEPHALOSPORIN	ALLELE	100	100	contig_2	1100	1973	-
+Isolado_06	aac(3)-IIa	aminoglycoside 3-N-acetyltransferase AAC(3)-IIa	AMR	AMINOGLYCOSIDE	GENTAMICIN	ALLELE	100	99.6	contig_4	360	1199	+
+Isolado_06	strA	streptomycin phosphotransferase StrA	AMR	AMINOGLYCOSIDE	STREPTOMYCIN	ALLELE	100	98.9	contig_6	250	1054	+
+Isolado_06	strB	streptomycin phosphotransferase StrB	AMR	AMINOGLYCOSIDE	STREPTOMYCIN	ALLELE	100	99.2	contig_6	1100	1935	+
+Isolado_07	vanA	vancomycin resistance protein VanA	AMR	GLYCOPEPTIDE	VANCOMYCIN	ALLELE	100	100	contig_1	500	1531	+
+Isolado_07	erm(B)	23S rRNA methyltransferase Erm(B)	AMR	MACROLIDE/LINCOSAMIDE	MACROLIDE/LINCOSAMIDE	ALLELE	100	99.7	contig_3	2500	3238	-
+Isolado_07	tet(M)	tetracycline resistance ribosomal protection protein Tet(M)	AMR	TETRACYCLINE	TETRACYCLINE	ALLELE	98.9	99.4	contig_5	400	2319	+
+Isolado_08	blaSHV-11	SHV-11 family class A beta-lactamase	AMR	BETA-LACTAM	BETA-LACTAM	ALLELE	100	100	contig_1	1010	1968	+
+Isolado_08	oqxA	multidrug efflux RND transporter periplasmic adaptor subunit OqxA	AMR	QUINOLONE	QUINOLONE	BLAST	100	98.5	contig_2	1800	2975	-
+Isolado_08	oqxB	multidrug efflux RND transporter permease subunit OqxB	AMR	QUINOLONE	QUINOLONE	BLAST	100	98.8	contig_2	3010	6162	-
+Isolado_08	fosA	fosfomycin resistance glutathione transferase FosA	AMR	FOSFOMYCIN	FOSFOMYCIN	ALLELE	100	99.3	contig_4	720	1142	+
+Isolado_08	blaTEM-partial	partial TEM family beta-lactamase hit	AMR	BETA-LACTAM	BETA-LACTAM	PARTIAL_CONTIG_END	72.4	94.0	contig_11	1	620	+
+Isolado_08	qnr-low-identity	low-identity quinolone resistance-like hit	AMR	QUINOLONE	QUINOLONE	BLAST	96.0	84.5	contig_12	300	941	-
