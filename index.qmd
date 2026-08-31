@@ -41,7 +41,7 @@ Ao final da disciplina, espera-se que os estudantes sejam capazes de reconhecer 
 
 ### Felipe Pantoja Mesquita
 
-Biomédico, mestre em Genética e doutor em Farmacologia. Professor do Programa de Pós-Graduação em Microbiologia Médica da Universidade Federal do Ceará e pesquisador do Laboratório de Farmacogenética.
+Biomédico, mestre em Genética e doutor em Farmacologia. Professor do Programa de Pós-Graduação em Microbiologia Médica da Universidade Federal do Ceará e pesquisador do Laboratório de Farmacogenética e GraMM.
 
 ::: {.faculty-links}
 [Currículo Lattes](https://lattes.cnpq.br/3626590016067119){.faculty-link}
