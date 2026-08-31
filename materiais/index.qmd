@@ -43,6 +43,20 @@ Os materiais serão disponibilizados e atualizados ao longo da disciplina.
 
 :::
 
+## Lógica de programação
+
+::: {.resource-box}
+### Exemplos em Visualg
+
+[Primeiro programa](<scripts/visualg/Primeiro Programa.visualg>){download=""} ·
+[Soma](<scripts/visualg/soma.visualg>){download=""} ·
+[IMC](<scripts/visualg/imc.visualg>){download=""} ·
+[Idade](<scripts/visualg/programa idade.visualg>){download=""} ·
+[Contador](<scripts/visualg/contador numerico.visualg>){download=""} ·
+[Tabuada](<scripts/visualg/tabuada_simples.visualg>){download=""} ·
+[Notas dos alunos](<scripts/visualg/notasalunos.visualg>){download=""}
+:::
+
 ## Scripts em R
 
 ::: {.resource-grid}
@@ -89,20 +103,6 @@ Os materiais serão disponibilizados e atualizados ao longo da disciplina.
 [Tabela-modelo do AMRFinderPlus](<scripts/Scripts_R/Analise_AMR/amr_resultados_exemplo.tsv>){download=""}
 :::
 
-:::
-
-## Lógica de programação
-
-::: {.resource-box}
-### Exemplos em Visualg
-
-[Primeiro programa](<scripts/visualg/Primeiro Programa.visualg>){download=""} ·
-[Soma](<scripts/visualg/soma.visualg>){download=""} ·
-[IMC](<scripts/visualg/imc.visualg>){download=""} ·
-[Idade](<scripts/visualg/programa idade.visualg>){download=""} ·
-[Contador](<scripts/visualg/contador numerico.visualg>){download=""} ·
-[Tabuada](<scripts/visualg/tabuada_simples.visualg>){download=""} ·
-[Notas dos alunos](<scripts/visualg/notasalunos.visualg>){download=""}
 :::
 
 ## Pipeline nf-core
