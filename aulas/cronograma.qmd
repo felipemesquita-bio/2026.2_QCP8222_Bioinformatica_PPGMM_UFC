@@ -104,7 +104,7 @@ Aula 09
 ::: {.schedule-content}
 ### Análise de sequenciamento de DNA
 
-Controle de qualidade, mapeamento de reads, chamada de variantes e anotação gênica.
+Ferramentas para controle de qualidade dos dados, montagem de novo e anotação gênica.
 :::
 :::
 
