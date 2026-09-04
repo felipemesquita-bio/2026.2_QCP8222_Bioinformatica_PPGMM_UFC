@@ -51,6 +51,30 @@ Biomédico, mestre em Genética e doutor em Farmacologia. Professor do Programa 
 :::
 :::
 
+### Docentes convidados
+
+::: {.faculty-grid .faculty-grid--guests}
+::: {.faculty-card .faculty-card--text}
+### Luína Benevides Lima
+
+Bióloga, mestre em Ciências Marinhas Tropicais e doutora em Ciências Médicas. Atua há quase 10 anos como servidora da Universidade Federal do Ceará e possui ampla experiência em técnicas de biologia molecular.
+
+::: {.faculty-links}
+[Currículo Lattes](http://lattes.cnpq.br/2752223443633134){.faculty-link}
+:::
+:::
+
+::: {.faculty-card .faculty-card--text}
+### Allysson Allan de Farias
+
+Biólogo, mestre em Arqueologia e doutor em Genética. Atua há 15 anos na interface entre bioinformática, genômica e medicina de precisão. É professor visitante do Programa de Pós-Graduação em Medicina Translacional da Universidade Federal do Ceará e pesquisador do Laboratório de Bioarqueologia Translacional (LABBAT).
+
+::: {.faculty-links}
+[Currículo Lattes](http://lattes.cnpq.br/0112236864523667){.faculty-link}
+:::
+:::
+:::
+
 ## Informações da disciplina
 
 - **Código:** QCP8222

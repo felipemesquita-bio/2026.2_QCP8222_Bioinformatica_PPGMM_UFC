@@ -21,6 +21,10 @@ Aula 02
 ### Sequenciamento de DNA e RNA
 
 Método Sanger, NGS, evolução das plataformas e cuidados da bancada à análise.
+
+::: {.schedule-instructor}
+**Docente convidada:** Luína Benevides Lima
+:::
 :::
 :::
 
@@ -93,6 +97,10 @@ Aula 08
 ### Prática de Shell e Bash
 
 Manipulação de arquivos e diretórios utilizando a linha de comando.
+
+::: {.schedule-instructor}
+**Docente convidado:** Allysson Allan de Farias
+:::
 :::
 :::
 
