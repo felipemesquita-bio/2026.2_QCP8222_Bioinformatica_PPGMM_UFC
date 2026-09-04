@@ -308,19 +308,8 @@ main.content a.btn-outline-primary:hover {
 }
 
 .faculty-grid--guests {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr));
   max-width: 1100px;
-}
-
-.faculty-card--text {
-  grid-template-columns: 1fr;
-  align-items: start;
-}
-
-.faculty-card--text h3,
-.faculty-card--text > p,
-.faculty-card--text .faculty-links {
-  grid-column: 1;
 }
 
 .faculty-card > p:not(:first-child) {
@@ -338,6 +327,10 @@ main.content a.btn-outline-primary:hover {
   box-shadow: 0 8px 26px rgba(18, 59, 87, 0.18);
   object-fit: cover;
   object-position: center;
+}
+
+.faculty-photo--luina {
+  object-position: center 27%;
 }
 
 .faculty-links {
