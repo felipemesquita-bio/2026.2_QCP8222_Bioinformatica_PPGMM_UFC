@@ -270,7 +270,7 @@ main.content a.btn-outline-primary:hover {
   transform: translateY(-2px);
 }
 
-/* Professor */
+/* Professor e docentes convidados */
 
 .faculty-grid {
   display: grid;
@@ -307,6 +307,11 @@ main.content a.btn-outline-primary:hover {
   font-size: 1.35rem;
 }
 
+.faculty-grid--guests {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr));
+  max-width: 1100px;
+}
+
 .faculty-card > p:not(:first-child) {
   margin: 0 0 1rem;
   color: var(--muted);
@@ -322,6 +327,10 @@ main.content a.btn-outline-primary:hover {
   box-shadow: 0 8px 26px rgba(18, 59, 87, 0.18);
   object-fit: cover;
   object-position: center;
+}
+
+.faculty-photo--luina {
+  object-position: center 27%;
 }
 
 .faculty-links {
@@ -396,6 +405,16 @@ main.content a.btn-outline-primary:hover {
   margin: 0;
   color: var(--muted);
   font-size: 0.94rem;
+}
+
+.schedule-instructor {
+  margin-top: 0.7rem;
+  color: var(--teal-dark);
+  font-size: 0.86rem;
+}
+
+.schedule-instructor p {
+  color: inherit;
 }
 
 /* Materiais e cartões */
