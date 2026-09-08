@@ -25,6 +25,8 @@ website:
         href: materiais/index.qmd
       - text: "Autodidata"
         href: autodidata.qmd
+      - text: "Linux no Windows"
+        href: wsl.qmd
 
   page-footer:
     left: "QCP8222 · PPG Microbiologia Médica · UFC"

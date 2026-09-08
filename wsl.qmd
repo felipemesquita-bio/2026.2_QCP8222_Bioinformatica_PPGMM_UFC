@@ -1,0 +1,194 @@
+---
+title: "Linux no Windows"
+subtitle: "Instalação do WSL 2 com Ubuntu"
+page-layout: full
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+O **WSL** (*Windows Subsystem for Linux*) permite executar o Ubuntu e ferramentas Linux diretamente no Windows, sem dual boot ou uma máquina virtual tradicional.
+
+::: {.callout-note}
+## Antes de começar
+
+Este tutorial requer **Windows 11** ou **Windows 10 versão 2004 ou posterior** (build 19041 ou superior). Para conferir a versão, pressione `Windows + R`, digite `winver` e pressione **Enter**.
+:::
+
+## 1. Abrir o PowerShell como administrador
+
+1. Abra o menu **Iniciar** e procure por **PowerShell**.
+2. Clique com o botão direito em **Windows PowerShell**.
+3. Selecione **Executar como administrador**.
+4. Autorize a execução.
+
+Os comandos de instalação desta página devem ser executados no PowerShell do Windows.
+
+## 2. Instalar o WSL e o Ubuntu
+
+No PowerShell, execute:
+
+```powershell
+wsl --install -d Ubuntu
+```
+
+Esse comando habilita os componentes necessários, configura o WSL 2 e instala o Ubuntu. Ao terminar, **reinicie o computador**.
+
+Para consultar previamente as distribuições disponíveis:
+
+```powershell
+wsl --list --online
+```
+
+## 3. Configurar o usuário do Ubuntu
+
+Após reiniciar, abra **Ubuntu** pelo menu Iniciar. Na primeira execução, crie um nome de usuário Linux quando aparecer:
+
+```text
+Enter new UNIX username:
+```
+
+Use um nome simples, sem espaços ou acentos, por exemplo `aluno`. Depois, crie uma senha.
+
+::: {.callout-tip}
+Ao digitar a senha no terminal Linux, nenhum caractere aparece na tela. Isso é normal. Digite a senha e pressione **Enter**.
+:::
+
+## 4. Atualizar o Ubuntu
+
+Os comandos a seguir devem ser executados no terminal **Ubuntu**:
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+## 5. Instalar ferramentas básicas
+
+```bash
+sudo apt install -y build-essential git curl wget unzip
+```
+
+Confira algumas instalações:
+
+```bash
+git --version
+curl --version
+```
+
+## 6. Confirmar o uso do WSL 2
+
+Volte ao PowerShell do Windows e execute:
+
+```powershell
+wsl --list --verbose
+```
+
+O resultado deverá indicar a versão 2:
+
+```text
+NAME      STATE      VERSION
+Ubuntu    Running    2
+```
+
+Se o Ubuntu estiver usando a versão 1:
+
+```powershell
+wsl --set-version Ubuntu 2
+```
+
+Também é possível conferir o estado geral:
+
+```powershell
+wsl --status
+```
+
+## 7. Abrir o Linux posteriormente
+
+Abra **Ubuntu** pelo menu Iniciar ou execute no PowerShell:
+
+```powershell
+wsl
+```
+
+Para iniciar diretamente na pasta pessoal do usuário Linux:
+
+```powershell
+wsl ~
+```
+
+## 8. Criar uma pasta para bioinformática
+
+No Ubuntu:
+
+```bash
+mkdir -p ~/bioinformatica
+cd ~/bioinformatica
+pwd
+```
+
+O resultado será semelhante a:
+
+```text
+/home/aluno/bioinformatica
+```
+
+Para melhor desempenho das ferramentas Linux, mantenha os projetos dentro do sistema de arquivos do WSL, como em `~/bioinformatica`.
+
+## 9. Acessar os arquivos do Windows
+
+A unidade `C:` está disponível no Ubuntu em `/mnt/c`:
+
+```bash
+cd /mnt/c/Users
+ls
+```
+
+Para abrir no Explorador do Windows a pasta Linux atual:
+
+```bash
+explorer.exe .
+```
+
+## 10. Testar o ambiente
+
+```bash
+cd ~/bioinformatica
+mkdir teste
+cd teste
+echo "WSL funcionando" > exemplo.txt
+cat exemplo.txt
+```
+
+## Solução de problemas
+
+Se `wsl --install` apenas mostrar a tela de ajuda, execute no PowerShell:
+
+```powershell
+wsl --list --online
+wsl --install -d Ubuntu
+```
+
+Se o download permanecer parado em `0,0%`:
+
+```powershell
+wsl --install --web-download -d Ubuntu
+```
+
+Para atualizar ou reiniciar o ambiente WSL:
+
+```powershell
+wsl --update
+wsl --shutdown
+```
+
+::: {.callout-warning}
+Não use `wsl --unregister Ubuntu` como tentativa comum de correção. Esse comando remove permanentemente os arquivos, programas e configurações da distribuição.
+:::
+
+## Documentação oficial
+
+- [Instalar o WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
+- [Comandos básicos do WSL](https://learn.microsoft.com/pt-br/windows/wsl/basic-commands)
+- [Configurar um ambiente de desenvolvimento no WSL](https://learn.microsoft.com/pt-br/windows/wsl/setup/environment)
