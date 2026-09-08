@@ -7,18 +7,53 @@
     "text": "08 SET\nAula 01\n\n\nIntrodução à bioinformática\nDefinição, história, evolução da área e principais aplicações.\n\n\n\n\n09 SET\nAula 02\n\n\nSequenciamento de DNA e RNA\nMétodo Sanger, NGS, evolução das plataformas e cuidados da bancada à análise.\n\nDocente convidada: Luína Benevides Lima\n\n\n\n\n\n10 SET\nAula 03\n\n\nEstrutura de dados\nRepresentação e armazenamento de sequências nos formatos FASTA, FASTQ, VCF, GFF e BAM.\n\n\n\n\n11 SET\nAula 04\n\n\nAlinhamento de sequências\nConceitos básicos de alinhamento global e local.\n\n\n\n\n14 SET\nAula 05\n\n\nLinguagens de programação aplicadas à bioinformática I\nIntrodução às linguagens shell, R e outras ferramentas computacionais.\n\n\n\n\n15 SET\nAula 06\n\n\nLinguagens de programação aplicadas à bioinformática II\nLógica de programação e Portugol aplicado para iniciantes.\n\n\n\n\n16 SET\nAula 07\n\n\nShell, Bash e frameworks\nComandos básicos para manipulação de dados e introdução ao Nextflow.\n\n\n\n\n17 SET\nAula 08\n\n\nPrática de Shell e Bash\nManipulação de arquivos e diretórios utilizando a linha de comando.\n\nDocente convidado: Allysson Allan de Farias\n\n\n\n\n\n18 SET\nAula 09\n\n\nAnálise de sequenciamento de DNA\nFerramentas para controle de qualidade dos dados, montagem de novo e anotação gênica.\n\n\n\n\n21 SET\nAula 10\n\n\nAnálise de RNA-seq e microarranjos\nPré-processamento, mapeamento, quantificação, anotação e pós-processamento.\n\n\n\n\n22 SET\nAula 11\n\n\nAnálise metagenômica\nControle de qualidade, montagem, anotação e classificação taxonômica.\n\n\n\n\n23 SET\nAula 12\n\n\nAnálise terciária de dados ômicos\nFerramentas para interpretação biológica de resultados.\n\n\n\n\n24 SET\nAula 13\n\n\nIntrodução à linguagem R\nComandos básicos e scripts em R aplicados às análises terciárias.\n\n\n\n\n25 SET\nAula 14\n\n\nSeminários — parte 1\nApresentação de trabalhos científicos e produtos de inovação em bioinformática.\n\n\n\n\n28 SET\nAula 15\n\n\nSeminários — parte 2\nApresentação de trabalhos científicos e produtos de inovação em bioinformática.\n\n\n\n\n29 SET\nAula 16\n\n\nSeminários — parte 3\nApresentação de trabalhos científicos e produtos de inovação em bioinformática."
   },
   {
-    "objectID": "autodidata.html",
-    "href": "autodidata.html",
-    "title": "Espaço autodidata",
+    "objectID": "materiais/index.html",
+    "href": "materiais/index.html",
+    "title": "Materiais da disciplina",
     "section": "",
-    "text": "Plataformas gratuitas para estudantes que desejam desenvolver habilidades básicas de programação em Bash e R no próprio ritmo."
+    "text": "Os materiais serão disponibilizados e atualizados ao longo da disciplina."
   },
   {
-    "objectID": "autodidata.html#importante",
-    "href": "autodidata.html#importante",
-    "title": "Espaço autodidata",
-    "section": "Importante!",
-    "text": "Importante!\n\nAvance gradualmente pelas atividades da plataforma.\nPratique os comandos no próprio computador.\nRegistre dúvidas para discutir durante a disciplina."
+    "objectID": "materiais/index.html#atividades",
+    "href": "materiais/index.html#atividades",
+    "title": "Materiais da disciplina",
+    "section": "Atividades",
+    "text": "Atividades\n\n\nAtividade 1\nBaixar atividade\n\n\nAtividade 2\nBaixar atividade\nFASTQ · VCF · GFF\n\n\nAtividade 3\nBaixar atividade\nSample 1 · Sample 2 · Sample 3\n\n\nAtividade 4\nBaixar atividade"
+  },
+  {
+    "objectID": "materiais/index.html#lógica-de-programação",
+    "href": "materiais/index.html#lógica-de-programação",
+    "title": "Materiais da disciplina",
+    "section": "Lógica de programação",
+    "text": "Lógica de programação\n\nExemplos em Visualg\nPrimeiro programa · Soma · IMC · Idade · Contador · Tabuada · Notas dos alunos"
+  },
+  {
+    "objectID": "materiais/index.html#scripts-em-r",
+    "href": "materiais/index.html#scripts-em-r",
+    "title": "Materiais da disciplina",
+    "section": "Scripts em R",
+    "text": "Scripts em R\n\n\nFundamentos de R\nAula 1 — conhecendo o R\nAula 2 — operações\nAula 3 — organização de dados\nAula 4 — data frames\ndataframe de exemplo\n\n\nTranscriptômica\nScript de análise de DEGs\nDados de RNA-seq\nMaterial sobre limma\n\n\nGene Ontology\nScript de análise GO\nConjunto de DEGs\nMaterial sobre clusterProfiler\n\n\nResistência antimicrobiana\nScript de análise de genes de resistência\nTabela-modelo do AMRFinderPlus"
+  },
+  {
+    "objectID": "materiais/index.html#pipeline-nf-core",
+    "href": "materiais/index.html#pipeline-nf-core",
+    "title": "Materiais da disciplina",
+    "section": "Pipeline nf-core",
+    "text": "Pipeline nf-core\n\nDados e configurações\nFASTQ — amostra 1\nFASTQ — amostra 2\nComando de demonstração\nConfiguração de demonstração\nComando bacass\nConfiguração bacass"
+  },
+  {
+    "objectID": "materiais/index.html#leituras-complementares",
+    "href": "materiais/index.html#leituras-complementares",
+    "title": "Materiais da disciplina",
+    "section": "Leituras complementares",
+    "text": "Leituras complementares\n\n\nArtigos\nFerretti et al. — Assembly of the Infant Gut Microbiome and Resistome Are Linked to Bacterial Strains in Mother’s Milk\nMejía-Limones et al. — Whole-Genome Sequencing of Klebsiella pneumoniae MDR Circulating in a Pediatric Hospital Setting: A Comprehensive Genome Analysis of Isolates from Guayaquil, Ecuador\nZhu et al. — Global Diversity and Distribution of Antibiotic Resistance Genes in Human Wastewater Treatment Systems\nFong et al. — Diversity and Host Specificity Revealed by Biological Characterization and Whole Genome Sequencing of Bacteriophages Infecting Salmonella enterica\nHinthong et al. — Genomic Insights into Klebsiella pneumoniae: Virulence, Resistance, and Transmission in South and Southeast Asia\nRyan et al. — Small Pangenome of Candida parapsilosis Reflects Overall Low Intraspecific Diversity\nPawlowski et al. — A Diverse Intrinsic Antibiotic Resistome from a Cave Bacterium\nXie et al. — Genomic Epidemiology and Antifungal Resistance of Emerging Trichophyton indotineae in China\nAzra et al. — Comparative Genomic Insights into Multidrug Resistance in Classical and Hypervirulent K. pneumoniae Clinical Isolates\nAnik et al. — Whole-Genome Sequencing and Genomic Characterization of Multidrug-Resistant Staphylococcus haemolyticus DUEML1\nKador et al. — Abundance and Transmission of Antibiotic Resistance and Virulence Genes through Mobile Genetic Elements in Integrated Chicken and Fish Farming"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "index.html",
@@ -63,52 +98,108 @@
     "text": "Cronograma\n\n\n\n08 SET\nAula 01\n\n\nIntrodução à bioinformática\nDefinição, história, evolução da área e principais aplicações.\n\n\n\n\n09 SET\nAula 02\n\n\nSequenciamento de DNA e RNA\nMétodo Sanger, NGS, evolução das plataformas e cuidados da bancada à análise.\n\nDocente convidada: Luína Benevides Lima\n\n\n\n\n\n10 SET\nAula 03\n\n\nEstrutura de dados\nRepresentação e armazenamento de sequências nos formatos FASTA, FASTQ, VCF, GFF e BAM.\n\n\n\n\n11 SET\nAula 04\n\n\nAlinhamento de sequências\nConceitos básicos de alinhamento global e local.\n\n\n\n\n14 SET\nAula 05\n\n\nLinguagens de programação aplicadas à bioinformática I\nIntrodução às linguagens shell, R e outras ferramentas computacionais.\n\n\n\n\n15 SET\nAula 06\n\n\nLinguagens de programação aplicadas à bioinformática II\nLógica de programação e Portugol aplicado para iniciantes.\n\n\n\n\n16 SET\nAula 07\n\n\nShell, Bash e frameworks\nComandos básicos para manipulação de dados e introdução ao Nextflow.\n\n\n\n\n17 SET\nAula 08\n\n\nPrática de Shell e Bash\nManipulação de arquivos e diretórios utilizando a linha de comando.\n\nDocente convidado: Allysson Allan de Farias\n\n\n\n\n\n18 SET\nAula 09\n\n\nAnálise de sequenciamento de DNA\nFerramentas para controle de qualidade dos dados, montagem de novo e anotação gênica.\n\n\n\n\n21 SET\nAula 10\n\n\nAnálise de RNA-seq e microarranjos\nPré-processamento, mapeamento, quantificação, anotação e pós-processamento.\n\n\n\n\n22 SET\nAula 11\n\n\nAnálise metagenômica\nControle de qualidade, montagem, anotação e classificação taxonômica.\n\n\n\n\n23 SET\nAula 12\n\n\nAnálise terciária de dados ômicos\nFerramentas para interpretação biológica de resultados.\n\n\n\n\n24 SET\nAula 13\n\n\nIntrodução à linguagem R\nComandos básicos e scripts em R aplicados às análises terciárias.\n\n\n\n\n25 SET\nAula 14\n\n\nSeminários — parte 1\nApresentação de trabalhos científicos e produtos de inovação em bioinformática.\n\n\n\n\n28 SET\nAula 15\n\n\nSeminários — parte 2\nApresentação de trabalhos científicos e produtos de inovação em bioinformática.\n\n\n\n\n29 SET\nAula 16\n\n\nSeminários — parte 3\nApresentação de trabalhos científicos e produtos de inovação em bioinformática."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "autodidata.html",
+    "href": "autodidata.html",
+    "title": "Espaço autodidata",
     "section": "",
-    "text": "About this site"
+    "text": "Plataformas gratuitas para estudantes que desejam desenvolver habilidades básicas de programação em Bash e R no próprio ritmo."
   },
   {
-    "objectID": "materiais/index.html",
-    "href": "materiais/index.html",
-    "title": "Materiais da disciplina",
+    "objectID": "autodidata.html#importante",
+    "href": "autodidata.html#importante",
+    "title": "Espaço autodidata",
+    "section": "Importante!",
+    "text": "Importante!\n\nAvance gradualmente pelas atividades da plataforma.\nPratique os comandos no próprio computador.\nRegistre dúvidas para discutir durante a disciplina."
+  },
+  {
+    "objectID": "wsl.html",
+    "href": "wsl.html",
+    "title": "Linux no Windows",
     "section": "",
-    "text": "Os materiais serão disponibilizados e atualizados ao longo da disciplina."
+    "text": "O WSL (Windows Subsystem for Linux) permite executar o Ubuntu e ferramentas Linux diretamente no Windows, sem dual boot ou uma máquina virtual tradicional."
   },
   {
-    "objectID": "materiais/index.html#atividades",
-    "href": "materiais/index.html#atividades",
-    "title": "Materiais da disciplina",
-    "section": "Atividades",
-    "text": "Atividades\n\n\nAtividade 1\nBaixar atividade\n\n\nAtividade 2\nBaixar atividade\nFASTQ · VCF · GFF\n\n\nAtividade 3\nBaixar atividade\nSample 1 · Sample 2 · Sample 3\n\n\nAtividade 4\nBaixar atividade"
+    "objectID": "wsl.html#abrir-o-powershell-como-administrador",
+    "href": "wsl.html#abrir-o-powershell-como-administrador",
+    "title": "Linux no Windows",
+    "section": "1. Abrir o PowerShell como administrador",
+    "text": "1. Abrir o PowerShell como administrador\n\nAbra o menu Iniciar e procure por PowerShell.\nClique com o botão direito em Windows PowerShell.\nSelecione Executar como administrador.\nAutorize a execução.\n\nOs comandos de instalação desta página devem ser executados no PowerShell do Windows."
   },
   {
-    "objectID": "materiais/index.html#lógica-de-programação",
-    "href": "materiais/index.html#lógica-de-programação",
-    "title": "Materiais da disciplina",
-    "section": "Lógica de programação",
-    "text": "Lógica de programação\n\nExemplos em Visualg\nPrimeiro programa · Soma · IMC · Idade · Contador · Tabuada · Notas dos alunos"
+    "objectID": "wsl.html#instalar-o-wsl-e-o-ubuntu",
+    "href": "wsl.html#instalar-o-wsl-e-o-ubuntu",
+    "title": "Linux no Windows",
+    "section": "2. Instalar o WSL e o Ubuntu",
+    "text": "2. Instalar o WSL e o Ubuntu\nNo PowerShell, execute:\nwsl --install -d Ubuntu\nEsse comando habilita os componentes necessários, configura o WSL 2 e instala o Ubuntu. Ao terminar, reinicie o computador.\nPara consultar previamente as distribuições disponíveis:\nwsl --list --online"
   },
   {
-    "objectID": "materiais/index.html#scripts-em-r",
-    "href": "materiais/index.html#scripts-em-r",
-    "title": "Materiais da disciplina",
-    "section": "Scripts em R",
-    "text": "Scripts em R\n\n\nFundamentos de R\nAula 1 — conhecendo o R\nAula 2 — operações\nAula 3 — organização de dados\nAula 4 — data frames\ndataframe de exemplo\n\n\nTranscriptômica\nScript de análise de DEGs\nDados de RNA-seq\nMaterial sobre limma\n\n\nGene Ontology\nScript de análise GO\nConjunto de DEGs\nMaterial sobre clusterProfiler\n\n\nResistência antimicrobiana\nScript de análise de genes de resistência\nTabela-modelo do AMRFinderPlus"
+    "objectID": "wsl.html#configurar-o-usuário-do-ubuntu",
+    "href": "wsl.html#configurar-o-usuário-do-ubuntu",
+    "title": "Linux no Windows",
+    "section": "3. Configurar o usuário do Ubuntu",
+    "text": "3. Configurar o usuário do Ubuntu\nApós reiniciar, abra Ubuntu pelo menu Iniciar. Na primeira execução, crie um nome de usuário Linux quando aparecer:\nEnter new UNIX username:\nUse um nome simples, sem espaços ou acentos, por exemplo aluno. Depois, crie uma senha.\n\n\n\n\n\n\nDica\n\n\n\nAo digitar a senha no terminal Linux, nenhum caractere aparece na tela. Isso é normal. Digite a senha e pressione Enter."
   },
   {
-    "objectID": "materiais/index.html#pipeline-nf-core",
-    "href": "materiais/index.html#pipeline-nf-core",
-    "title": "Materiais da disciplina",
-    "section": "Pipeline nf-core",
-    "text": "Pipeline nf-core\n\nDados e configurações\nFASTQ — amostra 1\nFASTQ — amostra 2\nComando de demonstração\nConfiguração de demonstração\nComando bacass\nConfiguração bacass"
+    "objectID": "wsl.html#atualizar-o-ubuntu",
+    "href": "wsl.html#atualizar-o-ubuntu",
+    "title": "Linux no Windows",
+    "section": "4. Atualizar o Ubuntu",
+    "text": "4. Atualizar o Ubuntu\nOs comandos a seguir devem ser executados no terminal Ubuntu:\nsudo apt update\nsudo apt upgrade -y"
   },
   {
-    "objectID": "materiais/index.html#leituras-complementares",
-    "href": "materiais/index.html#leituras-complementares",
-    "title": "Materiais da disciplina",
-    "section": "Leituras complementares",
-    "text": "Leituras complementares\n\n\nArtigos\nFerretti et al. — Assembly of the Infant Gut Microbiome and Resistome Are Linked to Bacterial Strains in Mother’s Milk\nMejía-Limones et al. — Whole-Genome Sequencing of Klebsiella pneumoniae MDR Circulating in a Pediatric Hospital Setting: A Comprehensive Genome Analysis of Isolates from Guayaquil, Ecuador\nZhu et al. — Global Diversity and Distribution of Antibiotic Resistance Genes in Human Wastewater Treatment Systems\nFong et al. — Diversity and Host Specificity Revealed by Biological Characterization and Whole Genome Sequencing of Bacteriophages Infecting Salmonella enterica\nHinthong et al. — Genomic Insights into Klebsiella pneumoniae: Virulence, Resistance, and Transmission in South and Southeast Asia\nRyan et al. — Small Pangenome of Candida parapsilosis Reflects Overall Low Intraspecific Diversity\nPawlowski et al. — A Diverse Intrinsic Antibiotic Resistome from a Cave Bacterium\nXie et al. — Genomic Epidemiology and Antifungal Resistance of Emerging Trichophyton indotineae in China\nAzra et al. — Comparative Genomic Insights into Multidrug Resistance in Classical and Hypervirulent K. pneumoniae Clinical Isolates\nAnik et al. — Whole-Genome Sequencing and Genomic Characterization of Multidrug-Resistant Staphylococcus haemolyticus DUEML1\nKador et al. — Abundance and Transmission of Antibiotic Resistance and Virulence Genes through Mobile Genetic Elements in Integrated Chicken and Fish Farming"
+    "objectID": "wsl.html#instalar-ferramentas-básicas",
+    "href": "wsl.html#instalar-ferramentas-básicas",
+    "title": "Linux no Windows",
+    "section": "5. Instalar ferramentas básicas",
+    "text": "5. Instalar ferramentas básicas\nsudo apt install -y build-essential git curl wget unzip\nConfira algumas instalações:\ngit --version\ncurl --version"
+  },
+  {
+    "objectID": "wsl.html#confirmar-o-uso-do-wsl-2",
+    "href": "wsl.html#confirmar-o-uso-do-wsl-2",
+    "title": "Linux no Windows",
+    "section": "6. Confirmar o uso do WSL 2",
+    "text": "6. Confirmar o uso do WSL 2\nVolte ao PowerShell do Windows e execute:\nwsl --list --verbose\nO resultado deverá indicar a versão 2:\nNAME      STATE      VERSION\nUbuntu    Running    2\nSe o Ubuntu estiver usando a versão 1:\nwsl --set-version Ubuntu 2\nTambém é possível conferir o estado geral:\nwsl --status"
+  },
+  {
+    "objectID": "wsl.html#abrir-o-linux-posteriormente",
+    "href": "wsl.html#abrir-o-linux-posteriormente",
+    "title": "Linux no Windows",
+    "section": "7. Abrir o Linux posteriormente",
+    "text": "7. Abrir o Linux posteriormente\nAbra Ubuntu pelo menu Iniciar ou execute no PowerShell:\nwsl\nPara iniciar diretamente na pasta pessoal do usuário Linux:\nwsl ~"
+  },
+  {
+    "objectID": "wsl.html#criar-uma-pasta-para-bioinformática",
+    "href": "wsl.html#criar-uma-pasta-para-bioinformática",
+    "title": "Linux no Windows",
+    "section": "8. Criar uma pasta para bioinformática",
+    "text": "8. Criar uma pasta para bioinformática\nNo Ubuntu:\nmkdir -p ~/bioinformatica\ncd ~/bioinformatica\npwd\nO resultado será semelhante a:\n/home/aluno/bioinformatica\nPara melhor desempenho das ferramentas Linux, mantenha os projetos dentro do sistema de arquivos do WSL, como em ~/bioinformatica."
+  },
+  {
+    "objectID": "wsl.html#acessar-os-arquivos-do-windows",
+    "href": "wsl.html#acessar-os-arquivos-do-windows",
+    "title": "Linux no Windows",
+    "section": "9. Acessar os arquivos do Windows",
+    "text": "9. Acessar os arquivos do Windows\nA unidade C: está disponível no Ubuntu em /mnt/c:\ncd /mnt/c/Users\nls\nPara abrir no Explorador do Windows a pasta Linux atual:\nexplorer.exe ."
+  },
+  {
+    "objectID": "wsl.html#testar-o-ambiente",
+    "href": "wsl.html#testar-o-ambiente",
+    "title": "Linux no Windows",
+    "section": "10. Testar o ambiente",
+    "text": "10. Testar o ambiente\ncd ~/bioinformatica\nmkdir teste\ncd teste\necho \"WSL funcionando\" &gt; exemplo.txt\ncat exemplo.txt"
+  },
+  {
+    "objectID": "wsl.html#solução-de-problemas",
+    "href": "wsl.html#solução-de-problemas",
+    "title": "Linux no Windows",
+    "section": "Solução de problemas",
+    "text": "Solução de problemas\nSe wsl --install apenas mostrar a tela de ajuda, execute no PowerShell:\nwsl --list --online\nwsl --install -d Ubuntu\nSe o download permanecer parado em 0,0%:\nwsl --install --web-download -d Ubuntu\nPara atualizar ou reiniciar o ambiente WSL:\nwsl --update\nwsl --shutdown\n\n\n\n\n\n\nAviso\n\n\n\nNão use wsl --unregister Ubuntu como tentativa comum de correção. Esse comando remove permanentemente os arquivos, programas e configurações da distribuição."
+  },
+  {
+    "objectID": "wsl.html#documentação-oficial",
+    "href": "wsl.html#documentação-oficial",
+    "title": "Linux no Windows",
+    "section": "Documentação oficial",
+    "text": "Documentação oficial\n\nInstalar o WSL\nComandos básicos do WSL\nConfigurar um ambiente de desenvolvimento no WSL"
   }
 ]

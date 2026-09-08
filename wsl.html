@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – QCP8222 · Bioinformática</title>
+<title>Linux no Windows – QCP8222 · Bioinformática</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -113,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Autodidata</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./wsl.html"> 
+    <a class="nav-link active" href="./wsl.html" aria-current="page"> 
 <span class="menu-text">Linux no Windows</span></a>
   </li>  
 </ul>
@@ -124,23 +159,41 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul class="collapse">
+  <li><a href="#abrir-o-powershell-como-administrador" id="toc-abrir-o-powershell-como-administrador" class="nav-link active" data-scroll-target="#abrir-o-powershell-como-administrador">1. Abrir o PowerShell como administrador</a></li>
+  <li><a href="#instalar-o-wsl-e-o-ubuntu" id="toc-instalar-o-wsl-e-o-ubuntu" class="nav-link" data-scroll-target="#instalar-o-wsl-e-o-ubuntu">2. Instalar o WSL e o Ubuntu</a></li>
+  <li><a href="#configurar-o-usuário-do-ubuntu" id="toc-configurar-o-usuário-do-ubuntu" class="nav-link" data-scroll-target="#configurar-o-usuário-do-ubuntu">3. Configurar o usuário do Ubuntu</a></li>
+  <li><a href="#atualizar-o-ubuntu" id="toc-atualizar-o-ubuntu" class="nav-link" data-scroll-target="#atualizar-o-ubuntu">4. Atualizar o Ubuntu</a></li>
+  <li><a href="#instalar-ferramentas-básicas" id="toc-instalar-ferramentas-básicas" class="nav-link" data-scroll-target="#instalar-ferramentas-básicas">5. Instalar ferramentas básicas</a></li>
+  <li><a href="#confirmar-o-uso-do-wsl-2" id="toc-confirmar-o-uso-do-wsl-2" class="nav-link" data-scroll-target="#confirmar-o-uso-do-wsl-2">6. Confirmar o uso do WSL 2</a></li>
+  <li><a href="#abrir-o-linux-posteriormente" id="toc-abrir-o-linux-posteriormente" class="nav-link" data-scroll-target="#abrir-o-linux-posteriormente">7. Abrir o Linux posteriormente</a></li>
+  <li><a href="#criar-uma-pasta-para-bioinformática" id="toc-criar-uma-pasta-para-bioinformática" class="nav-link" data-scroll-target="#criar-uma-pasta-para-bioinformática">8. Criar uma pasta para bioinformática</a></li>
+  <li><a href="#acessar-os-arquivos-do-windows" id="toc-acessar-os-arquivos-do-windows" class="nav-link" data-scroll-target="#acessar-os-arquivos-do-windows">9. Acessar os arquivos do Windows</a></li>
+  <li><a href="#testar-o-ambiente" id="toc-testar-o-ambiente" class="nav-link" data-scroll-target="#testar-o-ambiente">10. Testar o ambiente</a></li>
+  <li><a href="#solução-de-problemas" id="toc-solução-de-problemas" class="nav-link" data-scroll-target="#solução-de-problemas">Solução de problemas</a></li>
+  <li><a href="#documentação-oficial" id="toc-documentação-oficial" class="nav-link" data-scroll-target="#documentação-oficial">Documentação oficial</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Linux no Windows</h1>
+<p class="subtitle lead">Instalação do WSL 2 com Ubuntu</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -152,9 +205,149 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<p>O <strong>WSL</strong> (<em>Windows Subsystem for Linux</em>) permite executar o Ubuntu e ferramentas Linux diretamente no Windows, sem dual boot ou uma máquina virtual tradicional.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Antes de começar
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Este tutorial requer <strong>Windows 11</strong> ou <strong>Windows 10 versão 2004 ou posterior</strong> (build 19041 ou superior). Para conferir a versão, pressione <code>Windows + R</code>, digite <code>winver</code> e pressione <strong>Enter</strong>.</p>
+</div>
+</div>
+<section id="abrir-o-powershell-como-administrador" class="level2">
+<h2 class="anchored" data-anchor-id="abrir-o-powershell-como-administrador">1. Abrir o PowerShell como administrador</h2>
+<ol type="1">
+<li>Abra o menu <strong>Iniciar</strong> e procure por <strong>PowerShell</strong>.</li>
+<li>Clique com o botão direito em <strong>Windows PowerShell</strong>.</li>
+<li>Selecione <strong>Executar como administrador</strong>.</li>
+<li>Autorize a execução.</li>
+</ol>
+<p>Os comandos de instalação desta página devem ser executados no PowerShell do Windows.</p>
+</section>
+<section id="instalar-o-wsl-e-o-ubuntu" class="level2">
+<h2 class="anchored" data-anchor-id="instalar-o-wsl-e-o-ubuntu">2. Instalar o WSL e o Ubuntu</h2>
+<p>No PowerShell, execute:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>install <span class="op">-</span>d Ubuntu</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Esse comando habilita os componentes necessários, configura o WSL 2 e instala o Ubuntu. Ao terminar, <strong>reinicie o computador</strong>.</p>
+<p>Para consultar previamente as distribuições disponíveis:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>list <span class="op">--</span>online</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="configurar-o-usuário-do-ubuntu" class="level2">
+<h2 class="anchored" data-anchor-id="configurar-o-usuário-do-ubuntu">3. Configurar o usuário do Ubuntu</h2>
+<p>Após reiniciar, abra <strong>Ubuntu</strong> pelo menu Iniciar. Na primeira execução, crie um nome de usuário Linux quando aparecer:</p>
+<pre class="text"><code>Enter new UNIX username:</code></pre>
+<p>Use um nome simples, sem espaços ou acentos, por exemplo <code>aluno</code>. Depois, crie uma senha.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Dica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ao digitar a senha no terminal Linux, nenhum caractere aparece na tela. Isso é normal. Digite a senha e pressione <strong>Enter</strong>.</p>
+</div>
+</div>
+</section>
+<section id="atualizar-o-ubuntu" class="level2">
+<h2 class="anchored" data-anchor-id="atualizar-o-ubuntu">4. Atualizar o Ubuntu</h2>
+<p>Os comandos a seguir devem ser executados no terminal <strong>Ubuntu</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt upgrade <span class="at">-y</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="instalar-ferramentas-básicas" class="level2">
+<h2 class="anchored" data-anchor-id="instalar-ferramentas-básicas">5. Instalar ferramentas básicas</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install <span class="at">-y</span> build-essential git curl wget unzip</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Confira algumas instalações:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">--version</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="confirmar-o-uso-do-wsl-2" class="level2">
+<h2 class="anchored" data-anchor-id="confirmar-o-uso-do-wsl-2">6. Confirmar o uso do WSL 2</h2>
+<p>Volte ao PowerShell do Windows e execute:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>list <span class="op">--</span>verbose</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>O resultado deverá indicar a versão 2:</p>
+<pre class="text"><code>NAME      STATE      VERSION
+Ubuntu    Running    2</code></pre>
+<p>Se o Ubuntu estiver usando a versão 1:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>set-version Ubuntu <span class="dv">2</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Também é possível conferir o estado geral:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>status</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="abrir-o-linux-posteriormente" class="level2">
+<h2 class="anchored" data-anchor-id="abrir-o-linux-posteriormente">7. Abrir o Linux posteriormente</h2>
+<p>Abra <strong>Ubuntu</strong> pelo menu Iniciar ou execute no PowerShell:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>wsl</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Para iniciar diretamente na pasta pessoal do usuário Linux:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">~</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="criar-uma-pasta-para-bioinformática" class="level2">
+<h2 class="anchored" data-anchor-id="criar-uma-pasta-para-bioinformática">8. Criar uma pasta para bioinformática</h2>
+<p>No Ubuntu:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> ~/bioinformatica</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/bioinformatica</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="bu">pwd</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>O resultado será semelhante a:</p>
+<pre class="text"><code>/home/aluno/bioinformatica</code></pre>
+<p>Para melhor desempenho das ferramentas Linux, mantenha os projetos dentro do sistema de arquivos do WSL, como em <code>~/bioinformatica</code>.</p>
+</section>
+<section id="acessar-os-arquivos-do-windows" class="level2">
+<h2 class="anchored" data-anchor-id="acessar-os-arquivos-do-windows">9. Acessar os arquivos do Windows</h2>
+<p>A unidade <code>C:</code> está disponível no Ubuntu em <code>/mnt/c</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /mnt/c/Users</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Para abrir no Explorador do Windows a pasta Linux atual:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="ex">explorer.exe</span> .</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="testar-o-ambiente" class="level2">
+<h2 class="anchored" data-anchor-id="testar-o-ambiente">10. Testar o ambiente</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/bioinformatica</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> teste</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> teste</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"WSL funcionando"</span> <span class="op">&gt;</span> exemplo.txt</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> exemplo.txt</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="solução-de-problemas" class="level2">
+<h2 class="anchored" data-anchor-id="solução-de-problemas">Solução de problemas</h2>
+<p>Se <code>wsl --install</code> apenas mostrar a tela de ajuda, execute no PowerShell:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>list <span class="op">--</span>online</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>install <span class="op">-</span>d Ubuntu</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Se o download permanecer parado em <code>0,0%</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>install <span class="op">--</span>web-download <span class="op">-</span>d Ubuntu</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Para atualizar ou reiniciar o ambiente WSL:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>update</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>wsl <span class="op">--</span>shutdown</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Aviso
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não use <code>wsl --unregister Ubuntu</code> como tentativa comum de correção. Esse comando remove permanentemente os arquivos, programas e configurações da distribuição.</p>
+</div>
+</div>
+</section>
+<section id="documentação-oficial" class="level2">
+<h2 class="anchored" data-anchor-id="documentação-oficial">Documentação oficial</h2>
+<ul>
+<li><a href="https://learn.microsoft.com/pt-br/windows/wsl/install">Instalar o WSL</a></li>
+<li><a href="https://learn.microsoft.com/pt-br/windows/wsl/basic-commands">Comandos básicos do WSL</a></li>
+<li><a href="https://learn.microsoft.com/pt-br/windows/wsl/setup/environment">Configurar um ambiente de desenvolvimento no WSL</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script>
